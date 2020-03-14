@@ -13,6 +13,7 @@ RUN apt-get update \
     ssh \
     sudo \
     vim \
+    maven \
   && rm -rf /var/lib/apt/lists/*
 
 # https://wiki.debian.org/Locale#Manually
