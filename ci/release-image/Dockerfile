@@ -14,6 +14,7 @@ RUN apt-get update \
     sudo \
     vim \
     maven \
+    java \
   && rm -rf /var/lib/apt/lists/*
 
 # https://wiki.debian.org/Locale#Manually
