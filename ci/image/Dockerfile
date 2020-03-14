@@ -9,7 +9,9 @@ RUN yum update -y && yum install -y \
   wget \
   openssl \
   maven \
-  java \
+  default-jre \
+  default-jdk \
+  oracle-java8-installer \
   libxkbfile-devel \
   libsecret-devel \
   libx11-devel
