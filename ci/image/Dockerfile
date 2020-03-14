@@ -8,6 +8,7 @@ RUN yum update -y && yum install -y \
   git \
   wget \
   openssl \
+  maven \
   libxkbfile-devel \
   libsecret-devel \
   libx11-devel
